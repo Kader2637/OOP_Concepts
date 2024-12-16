@@ -18,7 +18,6 @@ Proyek ini dibuat untuk memenuhi tugas **UAS** dengan tujuan mengimplementasikan
 
 ## Tujuan Proyek  
 - Menguasai konsep dasar dan implementasi OOP di Java.  
-- Membuat kode yang modular, reusable, dan scalable.  
 - Menyelesaikan seluruh materi latihan untuk memperkuat pemahaman tentang OOP.
 
 ---
