@@ -11,6 +11,6 @@ package inheritanceMatematika;
 public class MatematikaCanggihBanget extends MatematikaCanggih{
     void pertambahanTiga(int a , int b , int c){
         hasil = a + b + c;
-        System.out.println("Hasil Pertamban Tiga angka : " + a + " + " + b + " + " + c + " : " + hasil);
+        System.out.println("Hasil Pertambahan Tiga angka : " + a + " + " + b + " + " + c + " : " + hasil);
     }
 }
