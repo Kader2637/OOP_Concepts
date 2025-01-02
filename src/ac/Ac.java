@@ -34,7 +34,7 @@ public class Ac implements InterfaceAc {
     public void dinginkan() {
         if (statusSuhu == KEADAAN_PANAS_AC) {
             statusSuhu = KEADAAN_DINGIN_AC;
-            System.out.println("\nDinginkan AC --> Ac telah di di dinginkan ");
+            System.out.println("\nDinginkan AC --> Ac telah di dinginkan ");
         } else {
             System.out.println("\nDinginkan AC --> Ac sudah di dinginkan kok!!!");
         }
@@ -43,7 +43,7 @@ public class Ac implements InterfaceAc {
     public void panaskan() {
         if (statusSuhu == KEADAAN_DINGIN_AC) {
             statusSuhu = KEADAAN_PANAS_AC;
-            System.out.println("\nPanaskan AC --> Ac telah di di panaskan ");
+            System.out.println("\nPanaskan AC --> Ac telah di panaskan ");
         } else {
             System.out.println("\nPanaskan AC --> Ac sudah di panaskan kok!!!");
         }
