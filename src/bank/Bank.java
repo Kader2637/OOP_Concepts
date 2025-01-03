@@ -30,10 +30,15 @@ public class Bank {
         System.out.println("Saldo saat ini: " + formatRupiah(saldo));
     }
 
-    void ambilSaldo(int ambil) {
-        saldo -= ambil;
+    void ambilSaldo(int ambil){
+        if (saldo >= ambil) {
+        saldo = saldo -= ambil;
         System.out.println("\nAmbil uang anda sebesar: " + formatRupiah(ambil));
         System.out.println("Saldo saat ini: " + formatRupiah(saldo));
+        }
+        else {
+            System.out.println("Saldo anda tidak mencukupi!!!");
+        }
     }
 
     String formatRupiah(int jumlah) {
